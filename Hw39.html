@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .active{
+            background: orange;
+        }
+    </style>
+    <title>Homework</title>
+</head>
+<body>
+    <div class="screen">
+        <div class="t1">
+            <p class="what">1)</p>
+            <div class="task">
+                <p class="enter">Ввод</p>
+                <input type="text" class="i1">
+                <button class="b1"></button>
+            </div>
+        </div>
+        <div class="t2">
+            <p class="what">2)</p>
+            <div class="task">
+                <p class="enter">Ввод</p>
+                <div class="t2a">
+                    <input type="text" class="i2">
+                    <button class="displace">Переместить</button>
+                </div>
+                <button class="b2"></button>
+            </div>
+        </div>
+        <div class="t3">
+            <p class="what">3)</p>
+            <div class="task">
+                <p class="what" id="t3a">У этого блока нет класса 'active'.</p>
+                <button class="b3" id="n1">Добавить класс</button>
+            </div>
+        </div>
+        <div class="t4">
+            <p class="what">4)</p>
+            <div class="task active">
+                <p class="what" id="t4a">У этого блока есть класс 'active'.</p>
+                <button class="b3" id="n2">Удалить класс</button>
+            </div>
+        </div>
+        <div class="t5">
+            <p class="what">5)</p>
+            <div class="task">
+                <p class="what" id="t5a">Удалить/добавить класс</p>
+                <button class="b3" id="n3">Удалить/добавить класс</button>
+            </div>
+        </div>
+        <div class="t6">
+            <p class="what">6)</p>
+            <div class="task">
+                <p class="what" id="t6a">У него есть класс?</p>
+                <button class="b3" id="n4">Удалить/Добавить класс</button>
+                <button class="b3" id="t6b">Проверить</button>
+            </div>
+        </div>
+        <div class="t7">
+            <p class="what">7)</p>
+            <div class="p1">
+                <div class="p2">
+                    <div class="p3">
+                        <button class="b3" id="t7a">Parent 1</button>
+                        <button class="b3" id="t7b">Parent 2</button>
+                        <button class="b3" id="t7c">Parent 3</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="t8">
+            <p class="what">8) См 7</p>
+        </div>
+        <div class="t9">
+            <p class="what">9)</p>
+            <div class="task" id="t9a">
+                <div id="bl1"></div>
+                <div id="bl2" class="box"></div>
+                <div id="bl3"></div>
+                <div id="bl4" class="box"></div><br>
+                <button class="b3" id="t9b">Разукрасить</button>
+            </div>
+        </div>
+        <div class="t10">
+            <p class="what">10)</p>
+            <div class="task" id="t10a">
+                <div id="box1"></div>
+                <div id="box2"></div>
+                <div id="box3"></div>
+                <div id="box4"></div>
+                <input type="number" step="1" max="3" min="0" class="i10">
+                <button class="b3" id="t10b">Добавить класс</button>
+            </div>
+        </div>
+        <div class="t11">
+            <p class="what">11)</p>
+            <div class="task">
+                <p class="enter">Ввод</p>
+                <input type="text" class="i11">
+                <button class="b3" id="t11a">Добавить атрибут</button>
+            </div>
+        </div>
+        <div class="t12">
+            <p class="what">12)</p>
+            <div class="task">
+                <p class="enter">Ввод</p>
+                <input type="text" class="i12">
+                <button class="b3" id="t12a">Поменять атрибут</button>
+            </div>
+        </div>
+        <div class="t13">
+            <p class="what">13)</p>
+            <div class="task">
+                <p class="enter">Ввод</p>
+                <input type="text" class="i13" placeholder="Введите ваш логин...">
+                <button class="b3" id="t13a">Удалить атрибут</button>
+            </div>
+        </div>
+    </div>
+    <script src="../jquery-3.7.1.min.js"></script>
+    <script src="./Hw39.js"></script>
+</body>
+</html>
